@@ -1,0 +1,6 @@
+<div class="mb-3">
+  <div class="task" *ngFor="let task of tasks">
+    <app-field [type]="task.type" [value]="task.title"></app-field>
+    <app-field [type]="task.type" [value]="task.description"></app-field>
+  </div>
+</div>

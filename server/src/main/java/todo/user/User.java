@@ -1,4 +1,4 @@
-package todo;
+package todo.user;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
